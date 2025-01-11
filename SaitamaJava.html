@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Saitama Java</title>
+		<script type="text/javascript">
+			function SocoSaitama() {
+				//saitama com soco
+				document.getElementById("saitama").src="SaitamaSoco.gif";
+			}
+			function NervosoSaitama(){
+				//saitama com raiva
+				document.getElementById("saitama").src="SaitamaRaivoso.jpeg";
+			}
+			function NormalSaitama(){
+				//saitama normal
+				document.getElementById("saitama").src="SaitamaNormal.jpg";
+			}
+		</script>
+	</head>
+	<body bgcolor="gold">
+		<center>
+			<h1>Não encoste no Saitama!</h1>
+			<hr>
+			<br>
+			<img width="600" height="450"  src="SaitamaNormal.jpg" id="saitama" onclick="SocoSaitama()" onmousemove="NervosoSaitama()" onmouseout="NormalSaitama()">
+		<hr>
+		<br>
+		<h5 style="color:red;"> Obs: Não clique nele</h5>
+		</center>
+	</body>
+</html>
